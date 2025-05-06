@@ -1,15 +1,13 @@
-
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import Router from "./routes/routes.jsx";
+import Router from "../src/routes/routes.jsx";
 import GlobalStyle from "./styles/GlobalStyles.js";
-import { StrictMode } from "react";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  <>
     <BrowserRouter basename="/Driele_DevMovies">
       <Router />
     </BrowserRouter>
     <GlobalStyle />
-  </StrictMode>
+  </>
 );

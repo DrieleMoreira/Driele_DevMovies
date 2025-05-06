@@ -8,7 +8,7 @@ import Detail from "../containers/Detail"
 
 function Router() {
   return (
-    <Routes basename="/Driele_DevMovies">
+    <Routes>
       <Route element={<DefaultLayout/>}>
       <Route path="/" element={<Home />} />
       <Route path="/filmes" element={<Movies />} />
