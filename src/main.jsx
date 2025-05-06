@@ -1,14 +1,17 @@
-import React  from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import Router from './routes/routes.jsx'
-import GlobalStyle from './styles/globalStyles'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import Router from "./routes/routes.jsx";
+import GlobalStyle from "./styles/GlobalStyles.js";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    {}
+    <BrowserRouter basename="/DevMovie">
+      {}
       <Router />
     </BrowserRouter>
+    {}
     <GlobalStyle />
-  </React.StrictMode>,
-)
+  </StrictMode>
+);
