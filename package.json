@@ -1,9 +1,10 @@
 {
+  "homepage": "https://drielemoreira.github.io/Driele_DevMovies/",
   "name": "dev-movies",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://drielemoreira.github.io/Driele_DevMovies/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",

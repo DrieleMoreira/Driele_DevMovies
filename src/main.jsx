@@ -6,12 +6,9 @@ import GlobalStyle from "./styles/GlobalStyles.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {}
-    <BrowserRouter basename="/Driele_DevMovies" >
-      {}
+    <BrowserRouter basename="/Driele_DevMovies">
       <Router />
     </BrowserRouter>
-    {}
     <GlobalStyle />
   </StrictMode>
 );
