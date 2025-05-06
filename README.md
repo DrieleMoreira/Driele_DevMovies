@@ -28,5 +28,5 @@ A aplicação utiliza a **TMDB API** (The Movie Database API) para buscar inform
 
 Para mais informações sobre a API, acesse [TMDB API](https://www.themoviedb.org/documentation/api).
 
-![image](https://github.com/DrieleMoreira/Driele_DevMovies/blob/a3e17de38b6f26bf4bbcb03e5c8c5a8b27b86e99/devmovie.png?raw=true)
+![image](https://github.com/DrieleMoreira/Driele_DevMovies/blob/640de28ea24a3d0d7dee9c5f920db7be79691d22/devmovie.png?raw=true)
 
