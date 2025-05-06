@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://drielemoreira.github.io/Driele_dev_movie/",
+  "homepage": "https://drielemoreira.github.io/Driele_DevMovies/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
