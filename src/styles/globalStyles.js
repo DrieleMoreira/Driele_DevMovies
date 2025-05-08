@@ -12,7 +12,7 @@ font-family: "Montserrat", sans-serif;
 }
 
 body {
-background: #000;
+background: #000000;
 
 }
 
