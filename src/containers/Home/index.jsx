@@ -2,7 +2,7 @@
 import { Background, Info, Poster, Container, ContainerButtons } from "./styles"; // Componentes de estilo
 import { useState, useEffect } from "react"; // Hooks do React
 import Button from "../../components/Button"; // Componente Button
-import Slider from "../../components/slider"; // Componente Slider para exibir listas de filmes/series
+import Slider from "../../components/Slider"
 import { getImages } from "../../utils/getImages"; // Função para recuperar imagens
 import Modal from "../../components/Modal"; // Componente Modal para exibir trailers
 import { useNavigate } from "react-router-dom"; // Hook de navegação do React Router
